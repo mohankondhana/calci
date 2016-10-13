@@ -1,0 +1,43 @@
+.calculator {
+    margin-top: 15px;
+    background: #ddd;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px rgba( 51, 51, 51, 0.2 );
+}
+
+.calculator .calculator-controls {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.calculator .calculator-controls .btn {
+    font-size: 16px;
+    background: #eee; 
+    margin-bottom: 5px;
+    display: block;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 1px rgba( 51, 51, 51, 0.2 );
+    opacity: .8;
+    transition: opacity .3s ease;
+}
+
+.calculator .calculator-controls .btn:hover {
+    opacity: 1;
+}
+
+.calculator .calculator-controls .btn:active {
+    box-shadow: none;
+}
+
+.calculator .calculator-controls .btn.operator {
+    background: #f1f1f1;
+    color: #0C7BC5;
+}
+
+.calculator .calculator-controls .btn.calculate {
+    background: #0C7BC5;
+    border: 1px solid #0C7BC5;
+    color: #fff;
+}
